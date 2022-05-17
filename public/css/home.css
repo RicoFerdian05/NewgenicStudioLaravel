@@ -1,0 +1,381 @@
+*{
+    font-family: 'Inter';
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+}
+
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+body {
+    background-color : white;
+    font-family: 'Inter', sans-serif;
+}
+
+.background-1 {
+    position: absolute;
+    z-index: -1;
+    width: 1428px;
+    height: 1008px;
+    left: -1000px;
+    top: 800px;
+    transform: rotate(-49.45deg);
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.sub-title {
+    font-weight: 900;
+    color: #2A5298;
+}
+
+.navbar {
+    margin-top:24px;
+    height : 56px;
+}
+
+.navbar h2 , .footer2 h2 {
+    font-weight: bold;
+    line-height:56px;
+    letter-spacing:0.1em;
+}
+
+.navbar .title{
+    color: #2A5298;
+}
+
+.footer2 .title {
+    color: #FAAC1B;
+}
+
+.navbar ul ,li {
+    display : inline;
+    text-decoration: none;
+    padding:14px;
+    font-size: 16px;
+    font-weight:700 ;
+    padding-top:0px;
+    line-height:24px;
+    letter-spacing:0.0015em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:#18191F;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #FAAC1B;
+}
+
+.navbar .a-active {
+    color: #2A5298;
+}
+
+.navbar button {
+    background-color: #2A5298;
+    width: 163px;
+    height: 38px;
+    color:white;
+    border-color: #2A5298;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left:0px;
+    padding-left:0px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.navbar button:hover{
+    color: #2A5298;
+    border-color: #2A5298;
+    background-color: white;
+}
+
+.navbar button:active{
+    color: #2A5298;
+    background-color: #ecf3ff;
+}
+
+.jumbotron{
+    margin-top: 70px;
+}
+
+.btn-learn{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    letter-spacing: 0.0015em;
+
+    color: #FFFFFF;
+    /* p blue 500 */
+
+    background: #2A5298;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.btn-learn:hover{
+    border-color: #2A5298;
+    background-color: white;
+    color: #2A5298;
+}
+
+.bg_home1{
+    background-image: url("../images/bg_home_kiri1.png");
+    background-repeat: no-repeat;
+}
+
+.home{
+    margin-top: 100px;
+}
+
+.card-services{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    height: 21rem;
+}
+
+.btn-card{
+    font-family: 'Inter';
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+
+    width: 135px;
+    height: 44px;
+    background-color: white;
+    color: #2A5298;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-color: #2A5298;
+    fill: white;
+    transition: .3s;
+}
+
+.bi-arrow-right{
+    fill: #2A5298;
+}
+
+.btn-card:hover{
+    color: #2A5298;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
+}
+
+.bg_home2{
+    position: absolute;
+    margin-top: 200px;
+    right: 0;
+    z-index: -10;
+
+}
+
+.title-no{
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    /* identical to box height, or 108% */
+
+
+    /* p blue 800 */
+
+    color: #0D2058;
+}
+
+.bg_home3{
+    position: absolute;
+    z-index: -10;
+    margin-top: -100px;
+}
+
+.bg_home4{
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    margin-top: -300px;
+}
+
+.people{
+    display: flex;
+
+}
+
+.footer1 {
+    margin-top:150px;
+    background-image: url("../images/bg_home5.png");
+    background-size: cover;
+    height:361px;
+}
+
+.footer1 .col-md-6 {
+    width : 570px;
+    height : 227px;
+    background-color: #F3F3F3;
+    margin-top:67px;
+    padding-top:33.5px;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.footer1 .col-md-8 {
+    padding-left: 45px;
+}
+
+
+
+.footer1 h4 {
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    width: 310px;
+    height: 80px;
+}
+
+.footer1 button {
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: #FAAC1B;
+    border-style: none;
+    color:white;
+}
+
+.footer1 .spc-button {
+    background-color:#1BA2E5; ;
+}
+
+.footer1 img {
+    padding-left:5px;
+    padding-top :25px;
+    width: 175px;
+    height: 116px;
+}
+
+.button-footer{
+    transition: .4s;
+}
+
+.button-footer:hover{
+    opacity: 70%;
+}
+
+.footer2{
+    color: #616161;
+}
+.footer2 .container {
+    width : 1110px;
+    height : 250px;
+    padding-top:96px;
+}
+
+.footer2 h5 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 255px;
+    height: 120px;
+    color: #616161;
+    margin-bottom: 24px;
+    margin-top:24px;
+}
+
+.footer2 .col-md-3 {
+    margin-bottom:127px ;
+    margin-left:30px;
+    width: 255px;
+}
+
+.footer2 h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px; 
+    width: 255px;
+    height: 30px;
+    margin-bottom: 24px;
+}
+
+.footer2 p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #616161;
+    margin-top:12px;
+}
+
+.footer2 img {
+    width: 24px;
+    height: 24px;
+    margin-left:21px;
+}
+
+.footer2 .spc {
+    margin-left: 0px;
+    margin-right:8px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.footer2 .p-spc {
+    margin-left:10px;
+    margin-top:-30px;
+    width:223px;
+    height:48px
+}
+
